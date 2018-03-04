@@ -200,6 +200,8 @@ public class FlickrFetchr {
                     return "title";
                 case "mUrl":
                     return "url_s";
+                case "mOwner":
+                    return "owner";
                 default:
                     return f.getName();
             }
